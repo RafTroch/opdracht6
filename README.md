@@ -5,6 +5,12 @@
 ````
 docker build -t far-img .
 ````
+* Container exec'en
+
+````
+docker exec -ti far-cont bash
+````
+
 * Image laten runnen
 
 ````
