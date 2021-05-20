@@ -11,7 +11,7 @@ docker build -t far-img .
 docker exec -ti far-cont bash
 ````
 
-* Image laten runnen
+* Container laten runnen
 
 ````
 docker run -dit -p 81:80 --name far-cont far-img
